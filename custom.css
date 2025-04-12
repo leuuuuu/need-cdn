@@ -1,0 +1,78 @@
+:root {
+    --ad-menu-size: 310px;
+    --ad-font-size-super: 1.10rem;
+    --ad-font-size: 1.05rem;
+    --bs-card-border-color: rgb(148 154 154);
+    --bs-light: #f5f5f5;
+}
+
+.h-100 .sidebar-system-name .sidebar-logo{
+    width:64px;
+}
+
+[data-bs-theme=light] {
+    --bs-border-color: #c6c7c8;
+}
+
+[data-bs-theme=dark] #adianti_div_content > div > div > div > .panel > .panel-body {
+    background-color: #33373b;
+}
+
+[data-bs-theme=dark] {
+    --bs-dark-bg-subtle: #303135 !important;
+}
+
+[data-bs-theme=dark] .card {
+    --bs-card-bg: #33373b;
+}
+
+[data-bs-theme=light] .dropdown-menu {
+    --bs-dropdown-link-hover-bg: #e8e8e8;
+}
+
+[data-bs-theme=light] {
+    --bs-dark-bg-subtle: #dde6ed !important;
+}
+
+[data-bs-theme=light] .card {
+    --bs-card-bg: #fbfbfb;
+}
+
+[data-bs-theme=light] .panel-title {
+    color:#dee2e6;
+}
+
+.ui-widget-overlay {
+    background: #020202;
+    opacity: .65;
+}
+[data-bs-theme=light] .card-header {
+    background-color: #0d6efd;
+}
+
+[data-menu-theme="light"] .card-header {
+    background-color: #ededed;
+}
+
+[data-menu-theme=light] .panel-title {
+    color:#000000;
+}
+
+[data-bs-theme=light] #adianti_div_content strong a{
+    color:#000000 !important;
+}
+
+#side-menu .sidebar-item [class*='ph-']{
+    position:relative;
+    top:4px;
+    left:-4px;
+    font-size:25px !important;
+}
+
+.tabwrapper .tab-content .active > .panel{
+    border-top-style:none;
+}
+
+#adianti_div_content > div > div > div > .panel > .panel-body{
+    background-color:#e8e8e8;
+}
